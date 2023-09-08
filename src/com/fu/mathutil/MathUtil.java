@@ -17,5 +17,8 @@ public class MathUtil {
     public static void main(String[] args) {
         long result = MathUtilDemo.getFactorial(5);
         System.out.println("expected = 5! = 120; actual = " + result);
+        
+        System.out.println("expected = 5! = 120; actual = " + MathUtilDemo.getFactorial(5));
+        System.out.println("expected = 5! = 120; actual = " + result);
     }
 }
